@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express();
 app.use(
   cors({
-    origin: "https://canteen-frontend-nine-xi.vercel.app/",
+    origin: "https://canteen-frontend-git-main-dhruv-kodrs-projects.vercel.app/",
     credentials: true,
   })
 );
