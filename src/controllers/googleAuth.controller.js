@@ -52,6 +52,7 @@ const googleLogin = async (req, res) => {
       message: "Google login successful",
       token,
       userData: {
+        id:user._id,
         name: user.name,
         email: user.email,
         role: user.role,
